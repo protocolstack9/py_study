@@ -10,14 +10,21 @@
 
 ## anaconda2 update (파이썬 가상환경)
 $ conda update --all
+	$ conda update conda
 
 $ conda info python
 
 $ conda create -n py3 python=3.7
+	conda create --name $ENVIRONMENT_NAME $PREINSTALL_PACKAGES
 $ source activate py3
 	// source deactivate
 (py3) $ conda install numpy
+
 (py3) $ python3 ./ex1.py		// 이름이 numpy.py이면 출동남
+
+//지우기
+$ conda env remove -n py3
+$ conda info --envs
 
 
 ## atom editor
