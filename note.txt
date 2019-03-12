@@ -1,4 +1,30 @@
 01_codeacademy
-  http://www.codecademy.com/learn
+	http://www.codecademy.com/learn
 
 02_coursera?
+
+03_numpy
+	http://cs231n.github.io/python-numpy-tutorial/
+
+
+
+## anaconda2 update (파이썬 가상환경)
+$ conda update --all
+
+$ conda info python
+
+$ conda create -n py3 python=3.7
+$ source activate py3
+	// source deactivate
+(py3) $ conda install numpy
+(py3) $ python3 ./ex1.py		// 이름이 numpy.py이면 출동남
+
+
+## atom editor
+$ sudo add-apt-repository ppa:webupd8team/atom
+$ sudo apt-get update
+$sudo apt-get install atom
+
+	$ cd python_kmooc
+	$ atom ./
+		install packages - 'script', 'autocomplete-python'
